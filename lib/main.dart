@@ -37,6 +37,8 @@ class MyApp extends StatelessWidget with WidgetsBindingObserver {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      title:'Hez News',
+      debugShowCheckedModeBanner:false,
       theme: themeProvider.themeData(),
       home: HomeScreen(category: 'all'),
     );

@@ -31,7 +31,7 @@ dev_dependencies:
     sdk: flutter
 
 flutter_launcher_name:
-  name: "NewsWipe"
+  name: "HezNews"
 
 flutter:
   uses-material-design: true
